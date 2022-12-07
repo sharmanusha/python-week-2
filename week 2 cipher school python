@@ -14,3 +14,22 @@ print(total)
 output:enter a number:1234
 10
 -----------------------------------------
+name=(input("enter your name:"))
+temp=""
+for i in range(0,len(name)):
+    if name[i] not in temp:
+        print(f"{name[i]}: {name.count(name[i])}")
+        temp += name[i]
+output:enter your name:Anusha Sharma
+A: 1
+n: 1
+u: 1
+s: 1
+h: 2
+a: 3
+ : 1
+S: 1
+r: 1
+m: 1
+-------------------------------------------
+
